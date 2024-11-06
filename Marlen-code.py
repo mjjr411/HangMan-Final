@@ -8,6 +8,8 @@ words = ["chicken", "football", "hockey", "freddy", "michael"]
 def get_secret_word():
     return random.choice(words)
 
+print("Sam was here")
+
 #prompts the letter from user
 def read_letter_from_user():
     input("Select a Letter")
@@ -18,9 +20,8 @@ def read_letter_from_user():
     # What if they entered a number?
     return letter
 
-#make a function for the guessess
+#make a function for the guessess and do something else
 
-if 
 
 # Display progress by revealing correctly guessed letters 
 # and displaying underscores for letters not guess yet
