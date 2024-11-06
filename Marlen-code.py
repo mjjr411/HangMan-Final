@@ -1,81 +1,41 @@
-# Do not delete this line!
-from wordle_helpers import select_random_word, print_color
+#random word
+import random
 
-
-WORD_LIST = [
-    "HEART",
-    "DOORS",
-    "REACH",
-    "BEACH",
-    "FETCH",
-]
+words = ["chicken", "football", "hockey", "freddy", "michael"]
 
 
 
+def get_secret_word():
+    return random.choice(words)
+
+#prompts the letter from user
+def read_letter_from_user():
+    input("Select a Letter")
+    letter = input('Please enter a letter: ')
+    # add validation what if they didn't enter a letter?
+    # What if they just pressed enter before typing a letter?
+    # What if they typed out more than a letter?
+    # What if they entered a number?
+    return letter
+
+#make a function for the guessess
+
+if 
+
+# Display progress by revealing correctly guessed letters 
+# and displaying underscores for letters not guess yet
+# e.g. secret_word is "horse" and gussed_letters includes ("h", "r", "i", "o")
+#      h_r__
+# will also display letters guessed so far
 
 
-# Do not change this function name!
+def display_progress(secret_word, guesses):
+
+
+  
 def main():
-    wordle = select_random_word()
-
-    # Your code here.
-    player_turn = 0
-    while player_turn< 6:
-
-        user_guess = input("Enter a guess: ")
-        user_guess_length = len(user_guess)
-
-    #user guess length is 5 letter long
-        while user_guess_length != 5:
-            print("Word is invalid!")
-            user_guess = input("selct a new word: ")
-            user_guess_length = len(user_guess)
-
-        user_guessL = user_guess.lower()
-        wordle_low = wordle.lower()
-    #
-        guess_list = list(user_guessL)
-
-        wordle_list = list(wordle_low)
-        #print(wordle_list)
-        #print(guess_list)
-
-    #how to compare each letter in the list to the string
-    #it
-        for compare_word in range(5):
-            if wordle_list[compare_word]== guess_list[compare_word]:
-                print_color(guess_list[compare_word], "GREEN")
-            elif guess_list[compare_word] in wordle_list:
-                print_color(guess_list[compare_word], "YELLOW")
-            else:
-                print_color(guess_list[compare_word], "BLACK")
-        print()
-# after that look to use print color function^^
-
-        player_turn += 1
-
-        #win condition
-        if guess_list == wordle_list:
-            print("you got it!")
-            break
-        elif player_turn == 6:
-            print("sorry the word was: " + wordle_low)
-
-
-
-
-    #if input == select_random_word():
-        #print("print_color("a", "green")")
-
+    print(get_secret_word())
     
-#for attempt in range(1, 7):
-    # print_color will print a single character in the specified color
+main() 
 
-
-    # print_color("a", "GREEN")
-
-
-# Comment this out when submitting for tests!
-
-#main()
 
