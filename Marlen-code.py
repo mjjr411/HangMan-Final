@@ -22,10 +22,6 @@ def read_letter_from_user():
 
 #make a function for the guessess and do something else
 
-<<<<<<< HEAD
-=======
-
->>>>>>> ec7f104 (UPDATED MJ)
 
 # Display progress by revealing correctly guessed letters 
 # and displaying underscores for letters not guess yet
