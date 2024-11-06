@@ -10,6 +10,7 @@ def get_secret_word():
 
 print("Sam was here")
 
+
 #prompts the letter from user
 def read_letter_from_user():
     input("Select a Letter")
