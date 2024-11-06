@@ -3,7 +3,7 @@ import random
 
 words = ["chicken", "football", "hockey", "freddy", "michael"]
 
-
+print("HELLLOOOO ARE YOU GETTING THIS")
 
 def get_secret_word():
     return random.choice(words)
@@ -22,6 +22,10 @@ def read_letter_from_user():
 
 #make a function for the guessess and do something else
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> ec7f104 (UPDATED MJ)
 
 # Display progress by revealing correctly guessed letters 
 # and displaying underscores for letters not guess yet
