@@ -3,12 +3,13 @@ import random
 
 words = ["chicken", "football", "hockey", "freddy", "michael"]
 
-
+print("HELLLOOOO ARE YOU GETTING THIS")
 
 def get_secret_word():
     return random.choice(words)
 
 print("Sam was here")
+
 
 #prompts the letter from user
 def read_letter_from_user():
@@ -31,6 +32,59 @@ def read_letter_from_user():
 
 
 def display_progress(secret_word, guesses):
+
+def hangman_board
+ ['''
+    +---+
+    |   |
+        |
+        |
+        |
+        |
+    =========''', '''
+    +---+
+    |   |
+    O   |
+        |
+        |
+        |
+    =========''', '''
+    +---+
+    |   |
+    O   |
+    |   |
+        |
+        |
+    =========''', '''
+    +---+
+    |   |
+    O   |
+    /|   |
+        |
+        |
+    =========''', '''
+    +---+
+    |   |
+    O   |
+    /|\  |
+        |
+        |
+    =========''', '''
+    +---+
+    |   |
+    O   |
+    /|\  |
+    /    |
+        |
+    =========''', '''
+    +---+
+    |   |
+    O   |
+    /|\  |
+    / \  |
+        |
+    =========''']
+print(hangman_board)
 
 
   
